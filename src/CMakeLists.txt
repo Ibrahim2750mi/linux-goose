@@ -37,4 +37,4 @@ add_executable(goose
     Goose.cpp
 )
 
-target_link_libraries(goose Qt6::Widgets)
+target_link_libraries(goose Qt${QT_VERSION_MAJOR}::Widgets)
