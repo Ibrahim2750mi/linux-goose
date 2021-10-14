@@ -1,0 +1,4 @@
+/home/ibrahim/C++/linux-goose/linux-goose/build/CMakeFiles/rebuild_cache.dir
+/home/ibrahim/C++/linux-goose/linux-goose/build/CMakeFiles/edit_cache.dir
+/home/ibrahim/C++/linux-goose/linux-goose/build/CMakeFiles/goose.dir
+/home/ibrahim/C++/linux-goose/linux-goose/build/CMakeFiles/goose_autogen.dir

@@ -1,0 +1,73 @@
+{
+	"BUILD_DIR" : "/home/ibrahim/C++/linux-goose/linux-goose/build/goose_autogen",
+	"CMAKE_BINARY_DIR" : "/home/ibrahim/C++/linux-goose/linux-goose/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/ibrahim/C++/linux-goose/linux-goose/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ibrahim/C++/linux-goose/linux-goose/src",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/ibrahim/C++/linux-goose/linux-goose/src",
+	"HEADERS" : 
+	[
+		[
+			"/home/ibrahim/C++/linux-goose/linux-goose/src/Goose.hpp",
+			"MU",
+			"EWIEGA46WW/moc_Goose.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/ibrahim/C++/linux-goose/linux-goose/build/goose_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/ibrahim/C++/linux-goose/linux-goose/build/goose_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/ibrahim/C++/linux-goose/linux-goose/build/goose_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/ibrahim/C++/linux-goose/linux-goose/build/CMakeFiles/goose_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/ibrahim/C++/linux-goose/linux-goose/build/CMakeFiles/goose_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/ibrahim/C++/linux-goose/linux-goose/src/Goose.cpp", "MU" ],
+		[ "/home/ibrahim/C++/linux-goose/linux-goose/src/main.cpp", "MU" ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
