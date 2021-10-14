@@ -3,6 +3,7 @@
 
 CMakeFiles/goose.dir/Goose.cpp.o: /home/ibrahim/C++/linux-goose/linux-goose/src/Goose.cpp
 CMakeFiles/goose.dir/Goose.cpp.o: /home/ibrahim/C++/linux-goose/linux-goose/src/Goose.hpp
+CMakeFiles/goose.dir/Goose.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimerEvent
 CMakeFiles/goose.dir/Goose.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/Qt
 CMakeFiles/goose.dir/Goose.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 CMakeFiles/goose.dir/Goose.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -105,9 +106,11 @@ CMakeFiles/goose.dir/Goose.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtrans
 CMakeFiles/goose.dir/Goose.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
 CMakeFiles/goose.dir/Goose.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
 CMakeFiles/goose.dir/Goose.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
+CMakeFiles/goose.dir/Goose.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsPixmapItem
 CMakeFiles/goose.dir/Goose.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView
 CMakeFiles/goose.dir/Goose.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h
 CMakeFiles/goose.dir/Goose.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
+CMakeFiles/goose.dir/Goose.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsitem.h
 CMakeFiles/goose.dir/Goose.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h
 CMakeFiles/goose.dir/Goose.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h
 CMakeFiles/goose.dir/Goose.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h
@@ -120,6 +123,11 @@ CMakeFiles/goose.dir/goose_autogen/mocs_compilation.cpp.o: goose_autogen/mocs_co
 
 CMakeFiles/goose.dir/main.cpp.o: /home/ibrahim/C++/linux-goose/linux-goose/src/Goose.hpp
 CMakeFiles/goose.dir/main.cpp.o: /home/ibrahim/C++/linux-goose/linux-goose/src/main.cpp
+CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
+CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
+CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QRect
+CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QSize
+CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QSizeF
 CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
 CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -194,6 +202,8 @@ CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvaria
 CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
 CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QScreen
+CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QTransform
 CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
 CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
 CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -217,6 +227,7 @@ CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygo
 CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h
 CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h
 CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h
+CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qscreen.h
 CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
 CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
 CMakeFiles/goose.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h

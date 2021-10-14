@@ -4,6 +4,7 @@
 CMakeFiles/goose.dir/Goose.cpp.o
  /home/ibrahim/C++/linux-goose/linux-goose/src/Goose.cpp
  /home/ibrahim/C++/linux-goose/linux-goose/src/Goose.hpp
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimerEvent
  /usr/include/x86_64-linux-gnu/qt5/QtCore/Qt
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -106,9 +107,11 @@ CMakeFiles/goose.dir/Goose.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsPixmapItem
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsitem.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h
@@ -121,6 +124,11 @@ CMakeFiles/goose.dir/goose_autogen/mocs_compilation.cpp.o
 CMakeFiles/goose.dir/main.cpp.o
  /home/ibrahim/C++/linux-goose/linux-goose/src/Goose.hpp
  /home/ibrahim/C++/linux-goose/linux-goose/src/main.cpp
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QRect
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QSize
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QSizeF
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -195,6 +203,8 @@ CMakeFiles/goose.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QScreen
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QTransform
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -218,6 +228,7 @@ CMakeFiles/goose.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qscreen.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h

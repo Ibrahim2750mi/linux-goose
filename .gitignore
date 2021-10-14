@@ -34,3 +34,4 @@
 # IDE workspaces
 /.vscode
 .vscode
+build/.cmake
