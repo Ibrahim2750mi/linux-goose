@@ -1,2 +1,3 @@
-Makefile linguist-vendored
+[Mm]akefile linguist-vendored
+*.make linguist-vendored
 *.cmake linguist-vendored
