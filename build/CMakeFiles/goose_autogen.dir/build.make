@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ibrahim/C++/linux-goose/linux-goose/src
+CMAKE_SOURCE_DIR = /home/ibrahim/C++/linux-goose/linux-goose
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/ibrahim/C++/linux-goose/linux-goose/build
@@ -55,7 +55,7 @@ include CMakeFiles/goose_autogen.dir/progress.make
 
 CMakeFiles/goose_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ibrahim/C++/linux-goose/linux-goose/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target goose"
-	/usr/bin/cmake -E cmake_autogen /home/ibrahim/C++/linux-goose/linux-goose/build/CMakeFiles/goose_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E cmake_autogen /home/ibrahim/C++/linux-goose/linux-goose/build/CMakeFiles/goose_autogen.dir/AutogenInfo.json Debug
 
 goose_autogen: CMakeFiles/goose_autogen
 goose_autogen: CMakeFiles/goose_autogen.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/goose_autogen.dir/clean:
 .PHONY : CMakeFiles/goose_autogen.dir/clean
 
 CMakeFiles/goose_autogen.dir/depend:
-	cd /home/ibrahim/C++/linux-goose/linux-goose/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ibrahim/C++/linux-goose/linux-goose/src /home/ibrahim/C++/linux-goose/linux-goose/src /home/ibrahim/C++/linux-goose/linux-goose/build /home/ibrahim/C++/linux-goose/linux-goose/build /home/ibrahim/C++/linux-goose/linux-goose/build/CMakeFiles/goose_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ibrahim/C++/linux-goose/linux-goose/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ibrahim/C++/linux-goose/linux-goose /home/ibrahim/C++/linux-goose/linux-goose /home/ibrahim/C++/linux-goose/linux-goose/build /home/ibrahim/C++/linux-goose/linux-goose/build /home/ibrahim/C++/linux-goose/linux-goose/build/CMakeFiles/goose_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/goose_autogen.dir/depend
 

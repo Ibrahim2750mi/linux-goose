@@ -6,10 +6,22 @@
 
 #IncludeRegexTransform: 
 
+../include/Goose.hpp
+map
+-
+array
+-
+QGraphicsView
+-
+
 /home/ibrahim/C++/linux-goose/linux-goose/src/Goose.cpp
 iostream
 -
 array
+-
+cmath
+-
+string
 -
 Qt
 -
@@ -18,15 +30,37 @@ QGraphicsPixmapItem
 QTimerEvent
 -
 Goose.hpp
-/home/ibrahim/C++/linux-goose/linux-goose/src/Goose.hpp
+-
 
-/home/ibrahim/C++/linux-goose/linux-goose/src/Goose.hpp
-map
+/home/ibrahim/C++/linux-goose/linux-goose/src/main.cpp
+iostream
 -
-array
+QApplication
 -
-QGraphicsView
+QScreen
 -
+Goose.hpp
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QList
+qlist.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
+qobject.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QRect
+qrect.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QSize
+qsize.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QSizeF
+qsize.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimerEvent
 qcoreevent.h
@@ -128,6 +162,20 @@ limits.h
 new
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h
+QtCore/qglobal.h
+-
+QtCore/qstring.h
+-
+QtCore/qobject.h
+-
+QtCore/qcoreevent.h
+-
+QtCore/qeventloop.h
+-
+QtCore/qscopedpointer.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
 QtCore/qnamespace.h
 -
@@ -174,6 +222,10 @@ list
 map
 -
 utility
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h
+QtCore/qobject.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
@@ -722,6 +774,14 @@ QtCore/qpoint.h
 QtCore/qglobal.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QScreen
+qscreen.h
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qscreen.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QTransform
+qtransform.h
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
 QtGui/qtguiglobal.h
 -
@@ -824,6 +884,22 @@ QtCore/qsharedpointer.h
 QtCore/qrect.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h
+QtGui/qtguiglobal.h
+-
+QtCore/qcoreapplication.h
+-
+QtGui/qwindowdefs.h
+-
+QtGui/qinputmethod.h
+-
+QtCore/qlocale.h
+-
+QtCore/qpoint.h
+-
+QtCore/qsize.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
 QtGui/qtguiglobal.h
 -
@@ -844,6 +920,12 @@ QtCore/qrect.h
 QtCore/qstring.h
 -
 QtCore/qstringlist.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h
+QtGui/qtguiglobal.h
+-
+QtCore/qobject.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
@@ -1000,6 +1082,24 @@ QtGui/qtguiglobal.h
 QtCore/qprocessordetection.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qscreen.h
+QtGui/qtguiglobal.h
+-
+QtCore/QList
+-
+QtCore/QObject
+-
+QtCore/QRect
+-
+QtCore/QSize
+-
+QtCore/QSizeF
+-
+QtGui/QTransform
+-
+QtCore/qnamespace.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
 QtGui/qtguiglobal.h
 -
@@ -1066,6 +1166,10 @@ QtGui/qwindowdefs_win.h
 QtGui/qtguiglobal.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
+qapplication.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsPixmapItem
 qgraphicsitem.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsitem.h
@@ -1078,6 +1182,30 @@ qgraphicsview.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qframe.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtCore/qcoreapplication.h
+-
+QtGui/qwindowdefs.h
+-
+QtCore/qpoint.h
+-
+QtCore/qsize.h
+-
+QtGui/qcursor.h
+-
+QtWidgets/qdesktopwidget.h
+-
+QtGui/qguiapplication.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h

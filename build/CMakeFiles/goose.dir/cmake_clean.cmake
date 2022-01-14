@@ -2,9 +2,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/goose_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/goose_autogen.dir/ParseCache.txt"
   "goose_autogen"
-  "CMakeFiles/goose.dir/Goose.cpp.o"
   "CMakeFiles/goose.dir/goose_autogen/mocs_compilation.cpp.o"
-  "CMakeFiles/goose.dir/main.cpp.o"
+  "CMakeFiles/goose.dir/src/Goose.cpp.o"
+  "CMakeFiles/goose.dir/src/main.cpp.o"
   "goose"
   "goose.pdb"
 )

@@ -31,10 +31,14 @@ find_package(Qt${QT_VERSION_MAJOR} COMPONENTS
     REQUIRED
 )
 
+aux_source_directory("src" coresrc)
+
 add_executable(goose
-    main.cpp
-    Goose.hpp
-    Goose.cpp
+    ${coresrc}
+)
+
+target_include_directories(
+    goose PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
 target_link_libraries(goose Qt${QT_VERSION_MAJOR}::Widgets)

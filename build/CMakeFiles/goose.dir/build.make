@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ibrahim/C++/linux-goose/linux-goose/src
+CMAKE_SOURCE_DIR = /home/ibrahim/C++/linux-goose/linux-goose
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/ibrahim/C++/linux-goose/linux-goose/build
@@ -70,44 +70,44 @@ CMakeFiles/goose.dir/goose_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/goose.dir/goose_autogen/mocs_compilation.cpp.s"
 	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ibrahim/C++/linux-goose/linux-goose/build/goose_autogen/mocs_compilation.cpp -o CMakeFiles/goose.dir/goose_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/goose.dir/main.cpp.o: CMakeFiles/goose.dir/flags.make
-CMakeFiles/goose.dir/main.cpp.o: /home/ibrahim/C++/linux-goose/linux-goose/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ibrahim/C++/linux-goose/linux-goose/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/goose.dir/main.cpp.o"
-	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/goose.dir/main.cpp.o -c /home/ibrahim/C++/linux-goose/linux-goose/src/main.cpp
+CMakeFiles/goose.dir/src/Goose.cpp.o: CMakeFiles/goose.dir/flags.make
+CMakeFiles/goose.dir/src/Goose.cpp.o: ../src/Goose.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ibrahim/C++/linux-goose/linux-goose/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/goose.dir/src/Goose.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/goose.dir/src/Goose.cpp.o -c /home/ibrahim/C++/linux-goose/linux-goose/src/Goose.cpp
 
-CMakeFiles/goose.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/goose.dir/main.cpp.i"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ibrahim/C++/linux-goose/linux-goose/src/main.cpp > CMakeFiles/goose.dir/main.cpp.i
+CMakeFiles/goose.dir/src/Goose.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/goose.dir/src/Goose.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ibrahim/C++/linux-goose/linux-goose/src/Goose.cpp > CMakeFiles/goose.dir/src/Goose.cpp.i
 
-CMakeFiles/goose.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/goose.dir/main.cpp.s"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ibrahim/C++/linux-goose/linux-goose/src/main.cpp -o CMakeFiles/goose.dir/main.cpp.s
+CMakeFiles/goose.dir/src/Goose.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/goose.dir/src/Goose.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ibrahim/C++/linux-goose/linux-goose/src/Goose.cpp -o CMakeFiles/goose.dir/src/Goose.cpp.s
 
-CMakeFiles/goose.dir/Goose.cpp.o: CMakeFiles/goose.dir/flags.make
-CMakeFiles/goose.dir/Goose.cpp.o: /home/ibrahim/C++/linux-goose/linux-goose/src/Goose.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ibrahim/C++/linux-goose/linux-goose/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/goose.dir/Goose.cpp.o"
-	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/goose.dir/Goose.cpp.o -c /home/ibrahim/C++/linux-goose/linux-goose/src/Goose.cpp
+CMakeFiles/goose.dir/src/main.cpp.o: CMakeFiles/goose.dir/flags.make
+CMakeFiles/goose.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ibrahim/C++/linux-goose/linux-goose/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/goose.dir/src/main.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/goose.dir/src/main.cpp.o -c /home/ibrahim/C++/linux-goose/linux-goose/src/main.cpp
 
-CMakeFiles/goose.dir/Goose.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/goose.dir/Goose.cpp.i"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ibrahim/C++/linux-goose/linux-goose/src/Goose.cpp > CMakeFiles/goose.dir/Goose.cpp.i
+CMakeFiles/goose.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/goose.dir/src/main.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ibrahim/C++/linux-goose/linux-goose/src/main.cpp > CMakeFiles/goose.dir/src/main.cpp.i
 
-CMakeFiles/goose.dir/Goose.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/goose.dir/Goose.cpp.s"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ibrahim/C++/linux-goose/linux-goose/src/Goose.cpp -o CMakeFiles/goose.dir/Goose.cpp.s
+CMakeFiles/goose.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/goose.dir/src/main.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ibrahim/C++/linux-goose/linux-goose/src/main.cpp -o CMakeFiles/goose.dir/src/main.cpp.s
 
 # Object files for target goose
 goose_OBJECTS = \
 "CMakeFiles/goose.dir/goose_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/goose.dir/main.cpp.o" \
-"CMakeFiles/goose.dir/Goose.cpp.o"
+"CMakeFiles/goose.dir/src/Goose.cpp.o" \
+"CMakeFiles/goose.dir/src/main.cpp.o"
 
 # External object files for target goose
 goose_EXTERNAL_OBJECTS =
 
 goose: CMakeFiles/goose.dir/goose_autogen/mocs_compilation.cpp.o
-goose: CMakeFiles/goose.dir/main.cpp.o
-goose: CMakeFiles/goose.dir/Goose.cpp.o
+goose: CMakeFiles/goose.dir/src/Goose.cpp.o
+goose: CMakeFiles/goose.dir/src/main.cpp.o
 goose: CMakeFiles/goose.dir/build.make
 goose: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
 goose: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
@@ -126,6 +126,6 @@ CMakeFiles/goose.dir/clean:
 .PHONY : CMakeFiles/goose.dir/clean
 
 CMakeFiles/goose.dir/depend:
-	cd /home/ibrahim/C++/linux-goose/linux-goose/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ibrahim/C++/linux-goose/linux-goose/src /home/ibrahim/C++/linux-goose/linux-goose/src /home/ibrahim/C++/linux-goose/linux-goose/build /home/ibrahim/C++/linux-goose/linux-goose/build /home/ibrahim/C++/linux-goose/linux-goose/build/CMakeFiles/goose.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ibrahim/C++/linux-goose/linux-goose/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ibrahim/C++/linux-goose/linux-goose /home/ibrahim/C++/linux-goose/linux-goose /home/ibrahim/C++/linux-goose/linux-goose/build /home/ibrahim/C++/linux-goose/linux-goose/build /home/ibrahim/C++/linux-goose/linux-goose/build/CMakeFiles/goose.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/goose.dir/depend
 

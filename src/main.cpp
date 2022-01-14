@@ -3,7 +3,7 @@
 #include <QApplication>
 #include <QScreen>
 
-#include "Goose.hpp"
+#include <Goose.hpp>
 
 int main(int argc, char *argv[]){
     QApplication app(argc, argv);
@@ -11,6 +11,6 @@ int main(int argc, char *argv[]){
     int w = app.screens()[0]->size().width();
     Goose goose(h, w);
     goose.show();
-
+    goose.move(500, 200);
     return app.exec();
 }

@@ -48,7 +48,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ibrahim/C++/linux-goose/linux-goose/src
+CMAKE_SOURCE_DIR = /home/ibrahim/C++/linux-goose/linux-goose
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/ibrahim/C++/linux-goose/linux-goose/build
@@ -136,33 +136,6 @@ goose_autogen/fast:
 	$(MAKE) -f CMakeFiles/goose_autogen.dir/build.make CMakeFiles/goose_autogen.dir/build
 .PHONY : goose_autogen/fast
 
-Goose.o: Goose.cpp.o
-
-.PHONY : Goose.o
-
-# target to build an object file
-Goose.cpp.o:
-	$(MAKE) -f CMakeFiles/goose.dir/build.make CMakeFiles/goose.dir/Goose.cpp.o
-.PHONY : Goose.cpp.o
-
-Goose.i: Goose.cpp.i
-
-.PHONY : Goose.i
-
-# target to preprocess a source file
-Goose.cpp.i:
-	$(MAKE) -f CMakeFiles/goose.dir/build.make CMakeFiles/goose.dir/Goose.cpp.i
-.PHONY : Goose.cpp.i
-
-Goose.s: Goose.cpp.s
-
-.PHONY : Goose.s
-
-# target to generate assembly for a file
-Goose.cpp.s:
-	$(MAKE) -f CMakeFiles/goose.dir/build.make CMakeFiles/goose.dir/Goose.cpp.s
-.PHONY : Goose.cpp.s
-
 goose_autogen/mocs_compilation.o: goose_autogen/mocs_compilation.cpp.o
 
 .PHONY : goose_autogen/mocs_compilation.o
@@ -190,32 +163,59 @@ goose_autogen/mocs_compilation.cpp.s:
 	$(MAKE) -f CMakeFiles/goose.dir/build.make CMakeFiles/goose.dir/goose_autogen/mocs_compilation.cpp.s
 .PHONY : goose_autogen/mocs_compilation.cpp.s
 
-main.o: main.cpp.o
+src/Goose.o: src/Goose.cpp.o
 
-.PHONY : main.o
+.PHONY : src/Goose.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/goose.dir/build.make CMakeFiles/goose.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/Goose.cpp.o:
+	$(MAKE) -f CMakeFiles/goose.dir/build.make CMakeFiles/goose.dir/src/Goose.cpp.o
+.PHONY : src/Goose.cpp.o
 
-main.i: main.cpp.i
+src/Goose.i: src/Goose.cpp.i
 
-.PHONY : main.i
+.PHONY : src/Goose.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/goose.dir/build.make CMakeFiles/goose.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Goose.cpp.i:
+	$(MAKE) -f CMakeFiles/goose.dir/build.make CMakeFiles/goose.dir/src/Goose.cpp.i
+.PHONY : src/Goose.cpp.i
 
-main.s: main.cpp.s
+src/Goose.s: src/Goose.cpp.s
 
-.PHONY : main.s
+.PHONY : src/Goose.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/goose.dir/build.make CMakeFiles/goose.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Goose.cpp.s:
+	$(MAKE) -f CMakeFiles/goose.dir/build.make CMakeFiles/goose.dir/src/Goose.cpp.s
+.PHONY : src/Goose.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/goose.dir/build.make CMakeFiles/goose.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/goose.dir/build.make CMakeFiles/goose.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/goose.dir/build.make CMakeFiles/goose.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -227,15 +227,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... goose"
 	@echo "... goose_autogen"
-	@echo "... Goose.o"
-	@echo "... Goose.i"
-	@echo "... Goose.s"
 	@echo "... goose_autogen/mocs_compilation.o"
 	@echo "... goose_autogen/mocs_compilation.i"
 	@echo "... goose_autogen/mocs_compilation.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/Goose.o"
+	@echo "... src/Goose.i"
+	@echo "... src/Goose.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

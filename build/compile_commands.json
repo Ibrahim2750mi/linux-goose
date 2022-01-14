@@ -1,0 +1,31 @@
+[
+    {
+        "arguments": [
+            "/bin/x86_64-linux-gnu-g++-9",
+            "-c",
+            "-DQT_CORE_LIB",
+            "-DQT_GUI_LIB",
+            "-DQT_WIDGETS_LIB",
+            "-I/home/ibrahim/C++/linux-goose/linux-goose/build/goose_autogen/include",
+            "-I/home/ibrahim/C++/linux-goose/linux-goose/include",
+            "-isystem",
+            "/usr/include/x86_64-linux-gnu/qt5",
+            "-isystem",
+            "/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+            "-isystem",
+            "/usr/include/x86_64-linux-gnu/qt5/QtGui",
+            "-isystem",
+            "/usr/include/x86_64-linux-gnu/qt5/QtCore",
+            "-isystem",
+            "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+            "-g",
+            "-fPIC",
+            "-std=gnu++11",
+            "-o",
+            "CMakeFiles/goose.dir/src/Goose.cpp.o",
+            "../src/Goose.cpp"
+        ],
+        "directory": "/home/ibrahim/C++/linux-goose/linux-goose/build",
+        "file": "../src/Goose.cpp"
+    }
+]

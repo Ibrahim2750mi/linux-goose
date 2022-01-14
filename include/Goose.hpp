@@ -10,16 +10,15 @@ class Goose: public QGraphicsView{
         void timerEvent(QTimerEvent *event);
     private:
         
-        int gx = x(), gy = y();
-        int monitor_h, monitor_w;
+        int gx = 500, gy = 200;
+        int monitor_h, monitor_w, rotation;
 
         QPixmap goose_img;
         QGraphicsScene goose_scene;
-        QGraphicsItem* goose_item;
         QTransform tr;
 
         std::map<std::string, std::array<std::array<int, 2>, 2>> dirs;
-        std::array<std::string, 8> dirs_string;
+        std::array<const char*, 8> dirs_string;
         int walk_dir_timer;
         int walk = 0;
         std::string dir_facing = "W";
@@ -27,4 +26,5 @@ class Goose: public QGraphicsView{
         int div = 45;
 
         void initialise_dir_map();
+        void img_reload();
 };
