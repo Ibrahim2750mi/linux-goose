@@ -14,6 +14,8 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "QT_CORE_LIB"
   "QT_GUI_LIB"
+  "QT_MULTIMEDIA_LIB"
+  "QT_NETWORK_LIB"
   "QT_WIDGETS_LIB"
   )
 
@@ -26,6 +28,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+  "/usr/include/x86_64-linux-gnu/qt5/QtMultimedia"
+  "/usr/include/x86_64-linux-gnu/qt5/QtNetwork"
   )
 
 # Targets to which this target links.

@@ -110,7 +110,9 @@ goose: CMakeFiles/goose.dir/src/Goose.cpp.o
 goose: CMakeFiles/goose.dir/src/main.cpp.o
 goose: CMakeFiles/goose.dir/build.make
 goose: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
+goose: /usr/lib/x86_64-linux-gnu/libQt5Multimedia.so.5.12.8
 goose: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
+goose: /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.12.8
 goose: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 goose: CMakeFiles/goose.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ibrahim/C++/linux-goose/linux-goose/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable goose"

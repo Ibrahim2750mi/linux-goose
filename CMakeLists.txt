@@ -13,19 +13,21 @@ if(CMAKE_VERSION VERSION_LESS "3.7.0")
     set(CMAKE_INCLUDE_CURRENT_DIR ON)
 endif()
 
-find_package(QT NAMES Qt6 Qt5 COMPONENTS
+find_package(QT NAMES Qt5 COMPONENTS
     Core
     Gui
+    Multimedia
     Widgets
     Concurrent
     Network
     REQUIRED
 )
 
-find_package(Qt${QT_VERSION_MAJOR} COMPONENTS
+find_package(Qt5 COMPONENTS
     Core
     Gui
     Widgets
+    Multimedia
     Concurrent
     Network
     REQUIRED
@@ -41,4 +43,5 @@ target_include_directories(
     goose PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
-target_link_libraries(goose Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(goose PRIVATE Qt5::Widgets
+                            Qt5::Multimedia)

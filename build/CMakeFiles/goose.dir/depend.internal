@@ -6,7 +6,12 @@ CMakeFiles/goose.dir/goose_autogen/mocs_compilation.cpp.o
 CMakeFiles/goose.dir/src/Goose.cpp.o
  ../include/Goose.hpp
  /home/ibrahim/C++/linux-goose/linux-goose/src/Goose.cpp
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileInfo
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimerEvent
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QUrl
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/Qt
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -28,6 +33,7 @@ CMakeFiles/goose.dir/src/Goose.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
@@ -42,6 +48,7 @@ CMakeFiles/goose.dir/src/Goose.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetaobject.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h
@@ -109,6 +116,20 @@ CMakeFiles/goose.dir/src/Goose.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
+ /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/QMediaPlayer
+ /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qaudio.h
+ /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediacontent.h
+ /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaenumdebug.h
+ /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaobject.h
+ /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaplayer.h
+ /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaresource.h
+ /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmultimedia.h
+ /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qtmultimedia-config.h
+ /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qtmultimediaglobal.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkconfiguration.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkrequest.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsPixmapItem
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h
@@ -127,8 +148,12 @@ CMakeFiles/goose.dir/src/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QRect
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSize
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSizeF
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QUrl
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -165,6 +190,7 @@ CMakeFiles/goose.dir/src/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetaobject.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h
@@ -237,6 +263,20 @@ CMakeFiles/goose.dir/src/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
+ /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/QMediaPlayer
+ /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qaudio.h
+ /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediacontent.h
+ /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaenumdebug.h
+ /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaobject.h
+ /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaplayer.h
+ /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaresource.h
+ /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmultimedia.h
+ /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qtmultimedia-config.h
+ /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qtmultimediaglobal.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkconfiguration.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkrequest.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h

@@ -5,7 +5,9 @@
 
 #include <Qt>
 #include <QGraphicsPixmapItem>
+#include <QMediaPlayer>
 #include <QTimerEvent>
+#include <QFileInfo>
 
 #include <Goose.hpp>
 
@@ -13,7 +15,7 @@ Goose::Goose(int mh, int mw, QWidget *parent):QGraphicsView(parent),
     monitor_h(mh), monitor_w(mw){
 
     rotation = 0;
-    goose_img.load("../assets/goose.png");
+    goose_img.load("../assets/images/goose.png");
     goose_scene.addPixmap(goose_img);
 
     setWindowFlag(Qt::FramelessWindowHint, true);
@@ -25,11 +27,9 @@ Goose::Goose(int mh, int mw, QWidget *parent):QGraphicsView(parent),
 
     setScene(&goose_scene);
     walk_dir_timer = startTimer(10000);
+    quack_timer = startTimer(1500);
     initialise_dir_map();
-}
-
-void Goose::mouseMoveEvent(QMouseEvent *event){
-    
+    player.setMedia(QUrl::fromLocalFile(QFileInfo("../assets/audio/goose.mp3").absoluteFilePath()));
 }
 
 void Goose::timerEvent(QTimerEvent *event){
@@ -56,8 +56,12 @@ void Goose::timerEvent(QTimerEvent *event){
         gx += dirs[dir_facing][1][0] * 10;
         gy += dirs[dir_facing][1][1] * 10;
         move(gx, gy);
+    }else if(event->timerId() == quack_timer){
+        if (rand()% 4 == 1){
+            player.setVolume(50);
+            player.play();
+        }
     }
-
 }
 
 void Goose::initialise_dir_map(){
@@ -90,11 +94,10 @@ void Goose::initialise_dir_map(){
         dirs.emplace(dirs_string[i], uppr_arr);
         fx += trend_x;
         fy += trend_y;
-    
     }
 }
 
 void Goose::img_reload(){
-    goose_img.load("../assets/goose.png");
+    goose_img.load("../assets/images/goose.png");
     goose_scene.clear();
 }
