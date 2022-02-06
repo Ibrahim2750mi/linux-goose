@@ -1,5 +1,5 @@
-#include <map>
 #include <array>
+#include <map>
 
 #include <QGraphicsView>
 #include <QMediaPlayer>
