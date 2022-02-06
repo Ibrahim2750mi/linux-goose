@@ -1,13 +1,13 @@
-#include <iostream>
 #include <array>
 #include <cmath>
+#include <iostream>
 #include <string>
 
-#include <Qt>
+#include <QFileInfo>
 #include <QGraphicsPixmapItem>
 #include <QMediaPlayer>
 #include <QTimerEvent>
-#include <QFileInfo>
+#include <Qt>
 
 #include <Goose.hpp>
 
@@ -57,6 +57,7 @@ void Goose::timerEvent(QTimerEvent *event){
         gy += dirs[dir_facing][1][1] * 10;
         move(gx, gy);
     }else if(event->timerId() == quack_timer){
+	// rand() will be changed to uniform_int_distribution
         if (rand()% 4 == 1){
             player.setVolume(50);
             player.play();
